@@ -10,14 +10,6 @@ let package = Package(
         .library(name: "SwiftOGG", targets: ["SwiftOGG"]),
     ],
     dependencies: [
-        .package(
-            name: "YbridOpus",
-            url: "https://github.com/vector-im/opus-swift",
-            from: "0.8.4"),
-        .package(
-            name: "YbridOgg",
-            url: "https://github.com/vector-im/ogg-swift.git",
-            from: "0.8.3")
     ],
     targets: [
         // To debug with a local framework
